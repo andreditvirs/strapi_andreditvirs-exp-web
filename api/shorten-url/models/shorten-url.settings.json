@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shorten_urls",
+  "info": {
+    "name": "shorten-url",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

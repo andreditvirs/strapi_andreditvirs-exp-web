@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shorten-urls",
+      "handler": "shorten-url.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shorten-urls/count",
+      "handler": "shorten-url.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shorten-urls/:id",
+      "handler": "shorten-url.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shorten-urls",
+      "handler": "shorten-url.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shorten-urls/:id",
+      "handler": "shorten-url.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shorten-urls/:id",
+      "handler": "shorten-url.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

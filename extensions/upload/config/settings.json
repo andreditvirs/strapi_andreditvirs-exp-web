@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "andreditvirs",
+        "api_key": "686884584631361",
+        "api_secret": "k1xRKyc9pCLyybU-9pBugB2Yo68"
+    }
+}

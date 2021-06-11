@@ -112,4 +112,10 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# After Run Production >< Local
+############################
 package-lock.json
+config/database.js
+config/plugins.js
